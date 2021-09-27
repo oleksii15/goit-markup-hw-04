@@ -252,6 +252,32 @@ img {
   margin-right: 0;
 }
 
+.features-item::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--button-grey-color);
+}
+
+.icon-antenna ::before {
+  background-image: url('../images/antenna\ 1.png');
+}
+
+.icon-vector ::before {
+  background-image: url('../images/Vector.png');
+}
+
+.icon-diagram ::before {
+  background-image: url('../images/diagram\ 1.png');
+}
+
+.icon-astronaut ::before {
+  background-image: url('../images/astronaut\ 1.png');
+}
+
 /* FILTERS AND ACTIVITY */
 
 .filters-item:not(:last-child) {
