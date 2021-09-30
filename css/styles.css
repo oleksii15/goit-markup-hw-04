@@ -591,6 +591,11 @@ img {
   border-radius: 50%;
 }
 
+.svg-item:hover,
+.svg-item:focus {
+  fill: var(--white-text-color);
+}
+
 .flex-box {
   margin-right: 600px;
 }
