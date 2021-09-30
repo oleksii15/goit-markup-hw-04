@@ -182,9 +182,6 @@ img {
 
 .hero {
   text-align: center;
-  background-color: var(--black-bg-color);
-  padding-bottom: 200px;
-  padding-top: 200px;
 }
 .hero-title {
   margin: 0 auto;
@@ -216,17 +213,23 @@ img {
   cursor: pointer;
 }
 
-/* .hero {
+.hero-container {
+  flex-grow: 1;
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4)),
-    url('../images/photo1.jpg');
-
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/overlay.jpg);
   background-repeat: no-repeat;
   background-position: center;
-} */
+  background-size: cover;
+  padding-bottom: 200px;
+  padding-top: 200px;
+}
 
 /* FEATURES */
 
@@ -390,12 +393,34 @@ img {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 .team-item-bottom {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: var(--white-text-color);
+}
+
+.team-soc-item {
+  width: 44px;
+  height: 44px;
+}
+
+.social-link {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-soc-item + .team-soc-item {
+  margin-left: 10px;
 }
 
 /* FOOTER */
