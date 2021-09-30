@@ -474,8 +474,8 @@ img {
   fill: var(--soc-logo-color);
 }
 
-.clients-svg-item:hover,
-.clients-svg-item:focus {
+.clients-svg:hover,
+.clients-svg:focus {
   background-color: var(--accent-color);
 }
 
