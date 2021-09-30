@@ -601,6 +601,7 @@ img {
   align-items: flex-end;
 }
 .contacts-icon {
+  position: absolute;
   display: inline-block;
   fill: currentColor;
   margin-right: 10px;
