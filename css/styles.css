@@ -469,6 +469,11 @@ img {
   height: 60px;
 }
 
+.clients-svg:hover,
+.clients-svg:focus {
+  color: var(--accent-color);
+}
+
 .clients-link {
   display: flex;
   width: 170px;
