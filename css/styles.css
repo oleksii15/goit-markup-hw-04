@@ -446,10 +446,6 @@ img {
 
 /* CLIENTS */
 
-.clients-blok:last-child {
-  margin-right: 0;
-}
-
 .clients-title {
   margin-bottom: 50px;
 }
@@ -464,14 +460,14 @@ img {
   margin-right: 30px;
 }
 
+.clients-blok:last-child {
+  margin-right: 0;
+}
+
 .clients-svg {
   width: 106px;
   height: 60px;
-}
-
-.clients-svg:hover,
-.clients-svg:focus {
-  color: var(--accent-color);
+  fill: currentColor;
 }
 
 .clients-link {
@@ -489,7 +485,7 @@ img {
 .clients-link:focus {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
-  color: var(--accent-color);
+  color: currentColor;
 }
 
 /* FOOTER */
