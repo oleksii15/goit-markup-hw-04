@@ -474,6 +474,11 @@ img {
   fill: var(--soc-logo-color);
 }
 
+.clients-svg-item:hover,
+.clients-svg-item:focus {
+  background-color: var(--accent-color);
+}
+
 .clients-link {
   display: flex;
   width: 170px;
