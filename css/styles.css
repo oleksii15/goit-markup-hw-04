@@ -468,10 +468,12 @@ img {
 .clients-svg {
   width: 106px;
   height: 60px;
-  fill: red;
+  color: var(--soc-logo-color);
 }
-.clients-svg-item {
-  fill: var(--soc-logo-color);
+
+.clients-svg:focus,
+.clients-svg:hover {
+  fill: var(--accent-color);
 }
 
 .clients-link {
