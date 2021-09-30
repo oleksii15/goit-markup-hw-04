@@ -606,13 +606,13 @@ img {
   align-items: flex-end;
 }
 .contacts-icon {
-  position: absolute;
   display: inline-block;
   fill: currentColor;
   margin-right: 10px;
   display: inline-flex;
   align-items: center;
   margin-bottom: 0;
+  background-size: contain;
 }
 
 .post-icon {
