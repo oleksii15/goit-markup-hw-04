@@ -608,6 +608,7 @@ img {
   display: inline-flex;
   align-items: center;
   margin-bottom: 0;
+  align-items: center;
 }
 
 .post-icon {
