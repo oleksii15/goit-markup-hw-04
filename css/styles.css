@@ -480,6 +480,7 @@ img {
   display: flex;
   width: 170px;
   height: 92px;
+  color: var(--soc-logo-color);
   border: 1px solid var(--soc-logo-color);
   border-radius: 4px;
   align-items: center;
