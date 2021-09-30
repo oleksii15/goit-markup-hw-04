@@ -410,7 +410,6 @@ img {
 .team-soc-item {
   width: 44px;
   height: 44px;
-  color: teal;
 }
 
 .social-link {
@@ -419,9 +418,10 @@ img {
   height: 100%;
   border-radius: 22px;
   display: flex;
-  color: var(--soc-logo-color);
+  color: var(--white-text-color);
   align-items: center;
   justify-content: center;
+  background-color: teal;
 }
 
 .social-link:focus,
@@ -442,7 +442,7 @@ img {
 .social-icon {
   width: 20px;
   height: 20px;
-  fill: currentColor;
+  fill: var(--soc-logo-color);
 }
 /* FOOTER */
 
