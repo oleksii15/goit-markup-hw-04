@@ -494,56 +494,66 @@ img {
 
 /* FOOTER */
 
-.footer-item {
-  margin-bottom: 9px;
-  font-size: 14px;
-  font-style: normal;
-  line-height: 1.71;
+a.item {
+  margin: 0 0 9px 0;
   color: var(--white-text-color);
+  font-style: normal;
 }
-
-.footer-item:last-child {
-  margin-bottom: 0;
+.site-footer {
+  background-color: #2f303a;
+  padding: 60px 0;
 }
-
-.contacts-link:hover,
-.contacts-link:focus {
+.footer-flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.logo-position {
+  display: block;
+  padding: 0;
+  margin: 0 0 20px;
   color: var(--accent-color);
 }
-
-.footer-link:hover,
-.footer-link:focus {
-  color: var(--accent-color);
+.logo-address {
+  align-content: flex-start;
 }
-
-.contacts-link {
-  color: var(--primary-text-color);
-  font-weight: 500;
+.address .item {
+  color: var(--primary-bg-color) !important;
+  font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
 }
-.footer-link {
-  margin-bottom: 9px;
-  color: var(--primary-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
+.address .list .item {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration-line: none;
+  background-color: #2f303a;
+  font-style: normal;
 }
-
-.footer-address {
-  margin-top: 20px;
+.address-section a {
+  text-decoration-line: none;
 }
-.footer {
-  background-color: var(--black-bg-color);
-  padding-top: 60px;
-  padding-bottom: 60px;
+.address-section .item:not(:last-child) {
+  margin-bottom: 9px;
 }
-
+li {
+  display: list-item;
+}
+.contact-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+.contact-link :hover,
+.contact-link :focus {
+  text-decoration-line: underline;
+  text-decoration-color: var(--accent-color);
+}
 .join-title {
   color: var(--primary-bg-color);
   font-style: normal;
