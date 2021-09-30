@@ -455,11 +455,11 @@ img {
 }
 
 .clients-list {
+  display: flex;
   margin: 0;
   padding: 0;
 }
 .clients-blok {
-  display: flex;
   margin-right: 30px;
 }
 
@@ -483,7 +483,7 @@ img {
 .clients-link:focus {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
-  background-color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 /* FOOTER */
