@@ -421,7 +421,6 @@ img {
   color: var(--white-text-color);
   align-items: center;
   justify-content: center;
-  background-color: teal;
 }
 
 .social-link:focus,
