@@ -474,11 +474,6 @@ img {
   fill: var(--soc-logo-color);
 }
 
-.clients-svg:hover,
-.clients-svg:focus {
-  background-color: var(--accent-color);
-}
-
 .clients-link {
   display: flex;
   width: 170px;
@@ -494,7 +489,7 @@ img {
 .clients-link:focus {
   border: 1px solid var(--accent-color);
   border-radius: 4px;
-  color: currentColor;
+  color: var(--accent-color);
 }
 
 /* FOOTER */
@@ -547,4 +542,45 @@ img {
   background-color: var(--black-bg-color);
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-blok {
+  display: flex;
+  align-items: baseline;
+}
+.footer-soc {
+  align-items: baseline;
+  text-align: left;
+}
+
+.footer-soc-list {
+  padding: 0;
+  display: flex;
+}
+.footer-link {
+  display: flex;
+  margin-right: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  padding: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  justify-content: center;
+  align-items: center;
+}
+.footer-soc-blok {
+  justify-content: center;
+}
+
+.footer-soc-blok:last-child {
+  margin-right: 0;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  background-color: var(--accent-color);
+}
+.footer-icon-svg {
+  fill: var(--white-text-color);
 }
