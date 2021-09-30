@@ -565,6 +565,7 @@ img {
   line-height: 1, 14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 .join-list {
   display: flex;
@@ -588,4 +589,23 @@ img {
 .join-list-item:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
+}
+
+.flex-box {
+  margin-right: 600px;
+}
+
+.contact a {
+  text-decoration-line: none;
+  display: inline-flex;
+  align-items: flex-end;
+}
+.contacts-icon {
+  fill: currentColor;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 0;
 }
