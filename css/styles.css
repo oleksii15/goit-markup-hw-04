@@ -602,13 +602,14 @@ img {
 
 .contact a {
   text-decoration-line: none;
-  display: inline-flex;
+  display: inline-block;
   align-items: flex-end;
 
   align-items: center;
 }
 
 .contacts-icon {
+  display: inline-block;
   fill: currentColor;
   display: inline-flex;
   align-items: center;
