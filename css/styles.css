@@ -124,7 +124,7 @@ img {
 }
 
 .contacts-item:first-child {
-  margin-left: 331px;
+  margin-left: auto;
 }
 
 .contacts-item:not(:last-child) {
