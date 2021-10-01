@@ -602,16 +602,15 @@ img {
 
 .contact a {
   text-decoration-line: none;
-  display: inline-flex;
+  display: flex;
   align-items: flex-end;
   justify-content: center;
   align-items: center;
 }
 
 .contacts-icon {
-  display: inline-block;
+  display: flex;
   fill: currentColor;
-  display: inline-flex;
   align-items: center;
   margin-bottom: 0;
 }
