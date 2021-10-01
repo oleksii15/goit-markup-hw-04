@@ -602,15 +602,16 @@ img {
 
 .contact a {
   text-decoration-line: none;
-  display: flex;
+  display: inline-flex;
   align-items: flex-end;
   justify-content: center;
   align-items: center;
 }
 
 .contacts-icon {
-  display: flex;
+  display: inline-block;
   fill: currentColor;
+  display: inline-flex;
   align-items: center;
   margin-bottom: 0;
   margin-right: 10px;
@@ -619,6 +620,7 @@ img {
 .post-icon {
   width: 16px;
   height: 12px;
+  margin-right: 10px;
 }
 
 .tel-icon {
