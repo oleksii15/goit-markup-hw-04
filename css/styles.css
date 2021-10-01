@@ -124,7 +124,7 @@ img {
 }
 
 .contacts-list {
-  margin-left: 331px;
+  margin-left: 300px;
 }
 
 .contacts-item:not(:last-child) {
@@ -602,9 +602,9 @@ img {
 
 .contact a {
   text-decoration-line: none;
-  display: inline-block;
+  display: inline-flex;
   align-items: flex-end;
-
+  justify-content: center;
   align-items: center;
 }
 
