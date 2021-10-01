@@ -124,7 +124,7 @@ img {
 }
 
 .contacts-list {
-  margin-left: 300px;
+  margin-left: 305px;
 }
 
 .contacts-item:not(:last-child) {
@@ -614,6 +614,7 @@ img {
   display: inline-flex;
   align-items: center;
   margin-bottom: 0;
+  margin-right: 10px;
 }
 
 .post-icon {
