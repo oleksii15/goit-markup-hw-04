@@ -614,15 +614,16 @@ img {
   display: inline-flex;
   align-items: center;
   margin-bottom: 0;
-  margin-right: 10px;
 }
 
 .post-icon {
   width: 16px;
   height: 12px;
+  margin-right: 10px;
 }
 
 .tel-icon {
   width: 10px;
   height: 16px;
+  margin-right: 10px;
 }
