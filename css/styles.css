@@ -608,7 +608,7 @@ img {
 .contacts-icon {
   display: inline-block;
   fill: currentColor;
-  margin-right: 10px;
+  padding-right: 10px;
   display: inline-flex;
   align-items: center;
   margin-bottom: 0;
