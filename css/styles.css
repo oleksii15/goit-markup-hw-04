@@ -608,6 +608,14 @@ img {
   align-items: center;
 }
 
+.contacts-icon {
+  display: inline-block;
+  fill: currentColor;
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
 .post-icon {
   width: 16px;
   height: 12px;
