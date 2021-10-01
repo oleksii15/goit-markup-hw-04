@@ -614,6 +614,7 @@ img {
   display: inline-flex;
   align-items: center;
   margin-bottom: 0;
+  margin-right: 10px;
 }
 
 .post-icon {
