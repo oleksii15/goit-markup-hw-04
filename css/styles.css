@@ -604,15 +604,17 @@ img {
   text-decoration-line: none;
   display: inline-flex;
   align-items: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 
 .contacts-icon {
   display: inline-block;
   fill: currentColor;
-
   display: inline-flex;
   align-items: center;
   margin-bottom: 0;
+  justify-content: center;
 }
 
 .post-icon {
