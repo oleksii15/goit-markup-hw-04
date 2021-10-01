@@ -613,12 +613,12 @@ img {
   fill: currentColor;
   align-items: center;
   margin-bottom: 0;
+  margin: 10px;
 }
 
 .post-icon {
   width: 16px;
   height: 12px;
-  margin-right: 10px;
 }
 
 .tel-icon {
