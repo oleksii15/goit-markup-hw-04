@@ -615,12 +615,11 @@ img {
   align-items: center;
   margin-bottom: 0;
   margin-right: 10px;
-  justify-content: center;
 }
-bgfh .post-icon {
+
+.post-icon {
   width: 16px;
   height: 12px;
-  margin-right: 10px;
 }
 
 .tel-icon {
