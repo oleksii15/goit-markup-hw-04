@@ -617,8 +617,8 @@ img {
   fill: var(--white-text-color);
 }
 
-.join-list-item:hover,
-.join-list-item:focus {
+.join-link:hover,
+.join-link:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
