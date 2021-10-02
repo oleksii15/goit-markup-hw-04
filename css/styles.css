@@ -214,8 +214,7 @@ img {
   cursor: pointer;
 }
 
-.hero-container {
-  flex-grow: 1;
+.hero {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
@@ -447,15 +446,17 @@ img {
 /* CLIENTS */
 
 .clients-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
   margin-bottom: 50px;
   text-align: center;
 }
 
 .clients-list {
-  flex-wrap: wrap;
   display: flex;
-  margin: 0;
-  padding: 0;
 }
 .clients-blok {
   margin-right: 30px;
@@ -526,6 +527,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 .footer-link {
   margin-bottom: 9px;
@@ -554,7 +557,6 @@ img {
 .footer-container {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
 }
 
 .join-title {
@@ -597,7 +599,7 @@ img {
 }
 
 .flex-box {
-  margin-right: 600px;
+  margin-left: 70px;
 }
 
 .contact a {
@@ -609,10 +611,6 @@ img {
 }
 
 .contacts-icon {
-  display: inline-block;
   fill: currentColor;
-  display: inline-flex;
-  align-items: center;
-  margin-bottom: 0;
   margin-right: 10px;
 }
