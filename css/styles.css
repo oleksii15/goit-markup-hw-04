@@ -432,7 +432,7 @@ img {
   color: var(--white-text-color);
   align-items: center;
   justify-content: center;
-  background-color: var(--white-text-color);
+  background-color: var(--accent-color);
 }
 
 .social-link:focus,
