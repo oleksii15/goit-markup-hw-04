@@ -614,7 +614,7 @@ img {
 
 .join-link:hover .join-icon,
 .join-link:focus .join-icon {
-  fill: var(--primary-title-color);
+  fill: rgba(255, 255, 255, 0.1);
 }
 
 .join-list-item:hover,
