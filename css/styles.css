@@ -263,6 +263,8 @@ img {
   background-color: var(--button-grey-color);
   border-radius: 4px;
   margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 .feauters-icon {
