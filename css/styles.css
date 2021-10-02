@@ -487,7 +487,6 @@ img {
   width: 106px;
   height: 60px;
   fill: var(--soc-logo-color);
-  color: var(--soc-logo-color);
 }
 
 .clients-svg-item:focus,
@@ -506,11 +505,14 @@ img {
   justify-content: center;
 }
 
+.clients-link:hover .clients-svg,
+.clients-link:focus .clients-svg {
+  fill: var(--accent-color);
+}
+
 .clients-link:hover,
 .clients-link:focus {
-  border: 1px solid var(--accent-color);
-  border-radius: 4px;
-  color: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /* FOOTER */
