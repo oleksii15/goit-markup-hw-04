@@ -605,13 +605,14 @@ img {
   border-radius: 50%;
 }
 
-.join-link {
+.join-link:hover,
+.join-link:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
 
-.join-link:hover .join-icon,
-.join-link:focus .join-icon {
+.join-link:hover .footer-icon-svg,
+.join-link:focus .footer-icon-svg {
   fill: var(--white-text-color);
 }
 
@@ -641,5 +642,5 @@ img {
 .footer-icon-svg {
   width: 20px;
   height: 20px;
-  fill: var(--primary-title-color);
+  fill: var(--white-text-color);
 }
