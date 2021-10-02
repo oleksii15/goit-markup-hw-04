@@ -595,13 +595,23 @@ img {
 }
 
 .join-link {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 44px;
   height: 44px;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+}
+
+.join-link {
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+
+.join-link:hover .join-icon,
+.join-link:focus .join-icon {
+  fill: var(--primary-title-color);
 }
 
 .join-list-item:hover,
@@ -630,4 +640,10 @@ img {
 .contacts-icon {
   fill: currentColor;
   margin-right: 10px;
+}
+
+.footer-icon-svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--primary-title-color);
 }
