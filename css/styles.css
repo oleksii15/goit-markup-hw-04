@@ -267,12 +267,6 @@ img {
   justify-content: center;
 }
 
-.feauters-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 /* FILTERS AND ACTIVITY */
 
 .filters-item:not(:last-child) {
