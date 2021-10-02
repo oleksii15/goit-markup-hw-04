@@ -427,10 +427,8 @@ img {
   height: 100%;
   border-radius: 22px;
   display: flex;
-  color: var(--white-text-color);
   align-items: center;
   justify-content: center;
-  background-color: var(--white-text-color);
 }
 
 .social-link:focus,
@@ -441,7 +439,7 @@ img {
 
 .social-link:hover .social-icon,
 .social-link:focus .social-icon {
-  fill: var(--primary-text-color);
+  fill: var(--white-text-color);
 }
 
 .team-soc-list {
