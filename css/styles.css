@@ -256,29 +256,18 @@ img {
   margin-right: 0;
 }
 
-.features-item::before {
-  display: block;
-  content: '';
+.feauters-box {
+  display: flex;
+  width: 270px;
   height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: var(--button-grey-color);
+  border-radius: 4px;
+  margin-bottom: 30px;
 }
 
-.icon-antenna::before {
-  background-image: url('../images/antenna\ 1.svg');
-}
-
-.icon-vector::before {
-  background-image: url('../images/clock\ 1.svg');
-}
-
-.icon-diagram::before {
-  background-image: url('../images/diagram\ 1.svg');
-}
-
-.icon-astronaut::before {
-  background-image: url('../images/astronaut\ 1.svg');
+.feauters-icon {
+  align-items: center;
+  justify-content: center;
 }
 
 /* FILTERS AND ACTIVITY */
