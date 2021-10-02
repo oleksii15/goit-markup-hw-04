@@ -614,18 +614,13 @@ img {
 
 .join-link:hover .join-icon,
 .join-link:focus .join-icon {
-  fill: rgba(255, 255, 255, 0.1);
+  fill: var(--white-text-color);
 }
 
 .join-list-item:hover,
 .join-list-item:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
-}
-
-.svg-item:hover,
-.svg-item:focus {
-  fill: var(--white-text-color);
 }
 
 .flex-box {
