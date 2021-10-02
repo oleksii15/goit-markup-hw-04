@@ -267,6 +267,11 @@ img {
   justify-content: center;
 }
 
+.features-icon {
+  align-items: center;
+  justify-content: center;
+}
+
 /* FILTERS AND ACTIVITY */
 
 .filters-item:not(:last-child) {
